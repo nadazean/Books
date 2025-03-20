@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKSHOP</title>
+    <link rel="icon" href="imges/logoicon.png">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!--header & nav -->
+    <header>
+        <div class="logo-section">
+            <a href="#" class="logo ">BOOK SHOP</a>
+        </div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="nav">
+            <li><a href="#shop">shop</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#faq">faq</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+
+        <div class="icons">
+            <a href="#"><i class='bx bx-search' ></i></a>
+            <a href="#"><i class='bx bx-user' ></i></a>
+            <a href="#"><i class='bx bx-shopping-bag' ></i></a>
+        </div>
+
+    </header >
+
+
+      <!--shop  -->
+      <section class="shop" id="shop">
+        <div class="container">
+            <div class="box">
+                <img src="imges/book2.png" alt="">
+                <h5>4.00 JD</h5>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart' ></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imges/book6.png" alt="">
+                <h5>3.50 JD</h5>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart' ></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imges/book4.png" alt="">
+                <h5>3.00 JD</h5>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart' ></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imges/book7.png" alt="">
+                <h5>3.50 JD</h5>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart' ></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imges/book8.png" alt="">
+                <h5>4.00 JD</h5>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart' ></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imges/book3.png" alt="">
+                <h5>3.00 JD</h5>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart' ></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imges/book1.png" alt="">
+                <h5>4.00 JD</h5>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart' ></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="imges/book5.png" alt="">
+                <h5>4.00 JD</h5>
+                <div class="cart">
+                    <a href="#"><i class='bx bx-cart' ></i></a>
+                </div>
+            </div>
+
+        </div>
+
+      </section>
+
+       <!--about-->
+       <section class="about" id="about">
+        <div class="about-content">
+            <h2>About</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse deserunt dolores laboriosam animi libero vitae recusandae mollitia nam facilis commodi molestias voluptatum soluta eligendi, quo quae nostrum. A, soluta vitae!</p>
+
+        </div>
+       </section>
+
+        <!--contact-->
+        <section class="contact" id="contact">
+            <div class="main-contact">
+                <div class="contact-content">
+                        <li><a href="#shop">shop</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#faq">faq</a></li>
+                        <li><a href="#contact">contact</a></li>
+                </div>
+                <div class="contact-content">
+                    <li><a href="#">shipping & returns</a></li>
+                    <li><a href="#">store policy</a></li>
+                    <li><a href="#">payment methods</a></li>
+                </div>
+                <div class="contact-content">
+                    <li><a href="#">contact</a></li>
+                    <li><a href="#">tel : 123-456-7890</a></li>
+                </div>
+                <div class="contact-content">
+                    <li><a href="#">facebook</a></li>
+                    <li><a href="#">instagram</a></li>
+                    <li><a href="#">pinterest</a></li>
+                </div>
+
+                <div class="action">
+                    <form action="">
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <input type="submit" value="Submit" name="submit">
+                    </form>
+                </div>
+            </div>
+
+            <div class="last">
+                <p>© 2025 by nada</p>
+            </div>
+        </section>
+
+
+        <script>
+          document.addEventListener("DOMContentLoaded", function () {
+    let menu = document.querySelector("#menu-icon");
+    let nav = document.querySelector(".nav");
+
+    menu.addEventListener("click", function () {
+        menu.classList.toggle("bx-x");
+        nav.classList.toggle("active");
+    });
+});
+
+        </script>
+</body>
+</html>
